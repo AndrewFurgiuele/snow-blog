@@ -1,0 +1,50 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "JahnelGroup Blog about ServiceNow"
+  subtitle    = "JahnelGroup Blog about ServiceNow"
+
+  cover       = "images/herobackground.jpg"
+  description = "Blog of few individuals passionate about ServiceNow"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "jahnelgroup"
+  fbName = "jahnelgroup"
+  githubName = "jahnelgroup"
+
+  logo = "images/jg_logo_white.png"
+  orgName = "JahnelGroup"
+  orgWebsite = "http://jahnelgroup.com"
+  orgDescription = "The most amazing software consulting company ever!"
+
+  author = "EM"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Describe yourself.."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "caspers"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Site"
+  url = "http://servicenow.jahnelgroup.com/"
+  weight = 95
