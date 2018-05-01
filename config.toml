@@ -1,4 +1,4 @@
-baseurl         = "shnek.github.com/blog/"
+baseurl         = "shnek.github.com/snow-blog/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
