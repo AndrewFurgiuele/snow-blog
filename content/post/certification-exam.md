@@ -3,19 +3,19 @@ layout: post
 cover: 'assets/images/cert_exam_photo.jpeg'
 title: How to Not Fail Your ServiceNow Certification Exam
 date:   2017-10-04 00:00:00
-tags:
-    - Certification
-    - Exam
-    - Developer
+tags: [Certification, Exam]
+categories: [Exam]
+authors: dmann
+author: "Dylan Mann"
 ---
 
 <p>Want a foolproof plan to guarantee success on your ServiceNow Certification Exam? Well, this isn’t it, but it’s as close as I can get! I’m not offering any guarantees, but what I can offer is a guide which has been proven successful for both myself and the rest of my team. By the end of reading this post my goal is to have you feeling prepared and confident to go out and crush your ServiceNow certification exam!</p>
 
 <h3>Who is This Post For?</h3>
 
-<p>This post is for anyone looking to prepare for their certification exam(s). Whether it be the System Administrator Exam, Application Developer Exam, or both, you’ve come to the right place.</p> 
+<p>This post is for anyone looking to prepare for their certification exam(s). Whether it be the System Administrator Exam, Application Developer Exam, or both, you’ve come to the right place.</p>
 
-<p>If you’re new to ServiceNow, I’ll share my story and process of going from having zero knowledge of the platform to becoming a skilled ServiceNow developer and passing both certification exams. If you already have experience with the platform and just want some extra study materials there’s something here for you as well.</p>      
+<p>If you’re new to ServiceNow, I’ll share my story and process of going from having zero knowledge of the platform to becoming a skilled ServiceNow developer and passing both certification exams. If you already have experience with the platform and just want some extra study materials there’s something here for you as well.</p>
 
 <h3>My Journey</h3>
 
@@ -23,10 +23,10 @@ tags:
 
 <p>There are 3 main learning plans, with the “Getting Started with ServiceNow” learning path covering all 3 in one. For the first two weeks I spent my time going through the modules, reading the docs, completing the exercises and taking notes on the core concepts of each.</p> 
 
-<p>After completing all the training modules I began studying various study materials and resources throughout the web and ServiceNow community. I studied flashcards endlessly, referred to the exam blueprints and studied the specified material within the ServiceNow documentation. I took Udemy courses and practice exams but still didn’t feel comfortable with the exam. So I went through the training modules again, rereading the documentation and redoing the exercises because again, <b>there is no better substitute for working hands on with the platform.</b> Going through the second time, I noticed there were several details I overlooked during my first read through. I had a better understanding of what I was reading and the information was better committed to memory. A lot of the questions are taken directly from the learning path so I highly recommend going over them again to prepare yourself for your test. After enough dedicated study and practice working with ServiceNow, you should be in good shape to go out and crush your exam.</p> 
+<p>After completing all the training modules I began studying various study materials and resources throughout the web and ServiceNow community. I studied flashcards endlessly, referred to the exam blueprints and studied the specified material within the ServiceNow documentation. I took Udemy courses and practice exams but still didn’t feel comfortable with the exam. So I went through the training modules again, rereading the documentation and redoing the exercises because again, <b>there is no better substitute for working hands on with the platform.</b> Going through the second time, I noticed there were several details I overlooked during my first read through. I had a better understanding of what I was reading and the information was better committed to memory. A lot of the questions are taken directly from the learning path so I highly recommend going over them again to prepare yourself for your test. After enough dedicated study and practice working with ServiceNow, you should be in good shape to go out and crush your exam.</p>
 
 
-<h3>Starting your own ServiceNow Journey</h3> 
+<h3>Starting your own ServiceNow Journey</h3>
 
 <h4>Review the exam blueprints</h4>
 <p>I’m putting these blueprints up first because I believe they’re the most valuable resource you can find. It gives you the prerequisites for the exam, lists out what a successful candidate can do in ServiceNow, the exam structure, learning domains and even sample test questions. If you go through the blueprint and truly understand each topic listed you will have no problem passing the exam.</p>

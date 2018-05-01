@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "shnek.github.com/blog/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
@@ -9,7 +9,7 @@ paginate        = 6
   title       = "JahnelGroup Blog about ServiceNow"
   subtitle    = "JahnelGroup Blog about ServiceNow"
 
-  cover       = "images/herobackground.jpg"
+  cover       = "images/main-background.jpg"
   description = "Blog of few individuals passionate about ServiceNow"
   metaDescription = ""
   googleAnalytics = ""
@@ -25,6 +25,7 @@ paginate        = 6
   orgWebsite = "http://jahnelgroup.com"
   orgDescription = "The most amazing software consulting company ever!"
 
+
   author = "EM"
   authorAvatar = "img/ghost-icon.png"
   authorLocation = "Bandung, ID"
@@ -35,6 +36,11 @@ paginate        = 6
 
   #casper or caspertwo
   singleViewStyle = "caspers"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  authorNick = "authors"
 
 [permalinks]
   post = "/:slug/"
@@ -47,4 +53,20 @@ paginate        = 6
 [[menu.main]]
   name = "Site"
   url = "http://servicenow.jahnelgroup.com/"
-  weight = 95
+  weight = 150style="background-image: url({{$.Site.BaseURL}}defimg/{{ index (seq 7 | shuffle) 0 }}.jpg)"
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories"
+  weight = 100
+
+[[params.authors]]
+    nick = "jsynowiec"
+    name = "Jakub Synowiec"
+    github = "shnek"
+    location = "Schenectady, NY"
+    image = "/images/jsynowiec.jpg"
+    background = "/images/shnek-background.jpg"
+[[params.authors]]
+    nick = "dmann"
+    name = "Dylan Mann"
