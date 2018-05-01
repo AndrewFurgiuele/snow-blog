@@ -46,14 +46,14 @@
   </url>
   
   <url>
-    <loc>snow-blog/tags/developer/</loc>
-    <lastmod>2017-10-04T10:18:00+00:00</lastmod>
+    <loc>snow-blog/categories/developer/</loc>
+    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>snow-blog/categories/developer/</loc>
-    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
+    <loc>snow-blog/tags/developer/</loc>
+    <lastmod>2017-10-04T10:18:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,13 +64,13 @@
   </url>
   
   <url>
-    <loc>snow-blog/tags/exam/</loc>
+    <loc>snow-blog/categories/exam/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>snow-blog/categories/exam/</loc>
+    <loc>snow-blog/tags/exam/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
