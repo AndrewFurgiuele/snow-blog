@@ -1,4 +1,4 @@
-baseurl         = "snow-blog/"
+baseurl         = "/snow-blog"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
