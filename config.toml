@@ -4,6 +4,7 @@ languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
+publishDir = "docs"
 
 [params]
   title       = "JahnelGroup Blog about ServiceNow"
