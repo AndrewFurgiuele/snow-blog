@@ -54,7 +54,7 @@ publishDir = "docs"
 [[menu.main]]
   name = "Site"
   url = "http://servicenow.jahnelgroup.com/"
-  weight = 150style="background-image: url({{$.Site.BaseURL}}defimg/{{ index (seq 7 | shuffle) 0 }}.png)"
+  weight = 150style="background-image: url({{$.Site.BaseURL}}defimg/{{ index (seq 1 | shuffle) 0 }}.png)"
 
 [[menu.main]]
   name = "Categories"
