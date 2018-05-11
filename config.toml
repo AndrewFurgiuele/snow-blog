@@ -28,7 +28,7 @@ publishDir = "docs"
 
 
   author = "EM"
-  authorAvatar = "img/ghost-icon.png"
+  authorAvatar = "defimg/user-icon.svg"
   authorLocation = "Bandung, ID"
   authorWebsite = "https://eueung.github.io"
   authorDescription = "Describe yourself.."
