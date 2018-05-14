@@ -5,12 +5,12 @@ date: 2018-04-26T13:55:00-04:00
 tags:
     - Code
     - JavaScript
-    - parseInt
 categories:
     - Funny
     - Developer
 authors: jsynowiec
 author: "Jakub Synowiec"
+image: 'images/programming.png'
 ---
 
 Over the time that I have been working with ServiceNow I have discovered several interesting quirks about the behavior of the code. Some of them kept me wondering for a while, others made me giggle. I want to share one of them with you, that I have discovered recently with Dylan, while debugging one of our applications, that left us with one question: Why does it work like that?

@@ -22,11 +22,11 @@ categories:
 Over the years, the concept of "platform" has been growing and become one of the main topics regarding IT Service Management. ServiceNow is one company in particular that has become a big thing in this space. Sure, the [list](https://www.servicenow.com/customers.html#all-customers) of companies using the ServiceNow platform is impressive, but it doesn't show how many people are actually using or familiar with the platform. What really brought this to my attention is when I mention ServiceNow while talking to people working in big companies. They usually have heard about it and they either know it is being used at company they, or someone else they know work at. With the growing popularity of the platform comes the need for skilled developers. I familiarized myself with the platform, and I built a demo application. This journey taught me various quirks about the platform which I want to share with all the other Developers.
 
 
-# Developing for the platform
-## Long way until coding
+## Developing for the platform
+### Long way until coding
 The first thing that I noticed when developing the application is that there is a long way until you will actually start coding. This is very different compared to what most developers am used to. Naturally, I am skipping the step of defining requirements and creating ERD diagrams. This process is no different than the that for creating any other application. Within ServiceNow, usually one of the first things you want to do is create database tables. You may end up doing that through ServiceNow Studio, which is a web-based IDE, using a graphical interface - forms, fields and lists - and you can't find any SQL here!
 
-![Studio](/assets/images/studio.png)
+![Studio](/images/goodbadugly/studio.png)
 
 The use of graphical based elements while creating the application does not stop there. Many of the pages for your application are semi-done for you. Out of the box you’ll get list views, which allow you to view database data in table-like format. You want to view a specific entry in the table? In ServiceNow it's called a record, and you can view it using Form View. You don't like the layout of the form? There is even a form designer allowing you to drag and drop element to customize that!
 
@@ -40,7 +40,7 @@ Here is where I encountered my first actual problem with ServiceNow platform. I 
 
 Let me show this problem using the widget editor on Service Portal Designer.
 
-![widget](/assets/images/widget.png)
+![widget](/images/goodbadugly/widget.png)
 
 You are greeted by a website where you can edit code in four areas: HTML, CSS, Client Script and Server Script. You start coding, close the JavaScript windows since you want to start with the layout of your widget. You want to resize the CSS area, because usually CSS files aren't very wide, and you want more horizontal space on the HTML template? Sorry. Can't do it. Using your IDE shortcuts? No way of setting them here. Code reformatting? Advanced autocompletion? Jumping around to function definition? No, you are left out without all the things that you like your IDE for.
 
@@ -60,7 +60,7 @@ For a few days.
 
 One day, after stashing some changes and trying to unstash them on a different branch, unstashing failed. Up to this day I do not know why it failed. It said that I have unresolved conflicts in files, and then gave me an empty list of files that I should resolve conflicts within. I was annoyed not only because of it not working properly, but because of me losing some work that I have been doing over some time.
 
-# Summary
+## Summary
 
 
 After reading this post you may think that I absolutely hate ServiceNow platform. That is completly false. I was presented to this platform as something that solves a lot of problems, a great tool that helps IT companies manage the process of producing software, platform that is easily extensible and able to adapt to requirements. Being a very sceptic person I knew there is a catch, nothing is perfect. That is why I wanted to share with everyone out there that is new to this platform as a developer some problems that I have encounter during the beginning of my journey with ServiceNow. I know I did not talk much about the good things, but I think there is enough people saying nice things about it that you could just read their posts.

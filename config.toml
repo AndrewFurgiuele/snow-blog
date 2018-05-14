@@ -7,8 +7,8 @@ paginate        = 6
 publishDir = "docs"
 
 [params]
-  title       = "JahnelGroup Blog about ServiceNow"
-  subtitle    = "JahnelGroup Blog about ServiceNow"
+  title       = "Jahnel Group Blog about ServiceNow"
+  subtitle    = "Jahnel Group Blog about ServiceNow"
 
   cover       = "images/main-background.jpg"
   description = "Blog of few individuals passionate about ServiceNow"
@@ -52,7 +52,7 @@ publishDir = "docs"
   weight = 200
 
 [[menu.main]]
-  name = "Site"
+  name = "Our Site"
   url = "http://servicenow.jahnelgroup.com/"
   weight = 150style="background-image: url({{$.Site.BaseURL}}defimg/{{ index (seq 1 | shuffle) 0 }}.png)"
 
@@ -71,3 +71,6 @@ publishDir = "docs"
 [[params.authors]]
     nick = "dmann"
     name = "Dylan Mann"
+    location = "Schenectady, NY"
+    image = "/images/dmann.jpg"
+
