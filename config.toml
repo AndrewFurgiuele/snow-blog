@@ -13,7 +13,7 @@ publishDir = "docs"
   cover       = "images/main-background.jpg"
   description = "Blog of few individuals passionate about ServiceNow"
   metaDescription = ""
-  googleAnalytics = ""
+  googleAnalytics = "UA-91305857-2"
   customCSS = []
   RSSLink = ""
 
@@ -50,16 +50,19 @@ publishDir = "docs"
   name = "Home"
   url = "/"
   weight = 200
+  target = ""
 
 [[menu.main]]
   name = "Our Site"
   url = "http://servicenow.jahnelgroup.com/"
-  weight = 150style="background-image: url({{$.Site.BaseURL}}defimg/{{ index (seq 1 | shuffle) 0 }}.png)"
+  weight = 150
+  target = "_blank"
 
 [[menu.main]]
   name = "Categories"
   url = "/categories"
   weight = 100
+  target = ""
 
 [[params.authors]]
     nick = "jsynowiec"
