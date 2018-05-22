@@ -1,10 +1,9 @@
 ---
 layout: post
-cover: 'assets/images/cover3.jpg'
+cover: '/images/cover3.jpg'
 title: The Good, the Bad, and the Ugly About ServiceNow from a Developer's Perspective
 date:   2017-10-04 10:18:00
 tags: platform
-subclass: 'post tag-test tag-content'
 navigation: True
 authors: jsynowiec
 author: "Jakub Synowiec"

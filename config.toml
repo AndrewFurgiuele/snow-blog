@@ -71,9 +71,15 @@ publishDir = "docs"
     location = "Schenectady, NY"
     image = "/images/jsynowiec.jpg"
     background = "/images/shnek-background.jpg"
+
 [[params.authors]]
     nick = "dmann"
     name = "Dylan Mann"
     location = "Schenectady, NY"
     image = "/images/dmann.jpg"
-
+    
+[[params.authors]]
+    nick = "jlee"
+    name = "John Lee"
+    location = "Schenectady, NY"
+    image = "/images/jlee.jpg"  
